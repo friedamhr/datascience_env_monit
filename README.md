@@ -8,6 +8,7 @@ python3 scripts/cluster_hello.py 200
 scripts/ the analysis code
 jobs/ Slurm job scripts
 docs/ notes and templates
+.gitignore
 
 ## Author
 Frieda Mohr
