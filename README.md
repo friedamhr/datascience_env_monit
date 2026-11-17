@@ -11,4 +11,4 @@ docs/ notes and templates
 .gitignore
 
 ## Author
-Frieda Mohr
+Frieda Mohr 05.11.2026
