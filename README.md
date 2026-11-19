@@ -12,3 +12,8 @@ docs/ notes and templates
 
 ## Author
 Frieda Mohr 05.11.2026
+
+## Block 4 report
+Requires the five FLUXNET zips in `data/raw` (download with `python3 scripts/get_my_towers.py --student 17`).
+Render with:
+    jupyter nbconvert --to html --execute --ExecutePreprocessor.timeout=600 reports/block4_data_summary.ipynb
