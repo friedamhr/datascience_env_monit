@@ -38,11 +38,8 @@ from block5_sites import get_my_sites, out_dir, parse_args, say  # noqa: E402
 import cdsapi  # noqa: E402
 
 VARIABLES = [
-    "2m_temperature",
-    "volumetric_soil_water_layer_1",   # 0–7 cm   (m3 m-3)
-    "volumetric_soil_water_layer_2",   # 7–28 cm
-    "volumetric_soil_water_layer_3",   # 28–100 cm
-    "soil_temperature_level_1",        # 0–7 cm   (K)
+    "2m_temperature",        # K
+    "total_precipitation",   # m, ACCUMULATED – check before summing
 ]
 # More: "total_precipitation", "surface_solar_radiation_downwards", "snow_depth", ...
 # Careful: precipitation and radiation are ACCUMULATED in ERA5-Land; look before you sum.
