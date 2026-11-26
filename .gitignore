@@ -7,3 +7,4 @@ data/
 tower_sets_block4.csv
 
 __pycache__/
+reports/*.html
